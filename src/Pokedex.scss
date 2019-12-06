@@ -1,0 +1,19 @@
+.Pokedex {
+    margin: 0 auto;
+    text-align: center;
+
+    .Pokedex-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Pokedex-winner {
+        text-transform: uppercase;
+        color: green;
+    }
+    .Pokedex-looser {
+        text-transform: uppercase;
+        color: red;
+    }
+    
+}
